@@ -1,5 +1,13 @@
 /* Beginning of my additions after normalization*/
-h2, figure {
+* {
+    font-family: Geneva, Tahoma, sans-serif;
+}
+
+h1, h2 {
+    text-decoration: underline;
+}
+
+h2, figure, header {
     text-align: center;
 }
 
@@ -28,5 +36,18 @@ img {
 }
 
 p {
+    font-size: 20px;
     margin: 10px
+}
+
+footer {
+    text-align: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    text-indent: -45px;
 }
