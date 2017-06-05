@@ -3,11 +3,11 @@
     font-family: Geneva, Tahoma, sans-serif;
 }
 
-h1, h2 {
+h1, h3 {
     text-decoration: underline;
 }
 
-h2, figure, header {
+h1, h3, figure, header {
     text-align: center;
 }
 
@@ -17,7 +17,7 @@ body {
 
 section {
     background-color: #dddddd;
-    border: 3px solid darkgreen
+    border: 3px solid darkgreen;
 }
 
 a {
@@ -49,6 +49,9 @@ ul {
 }
 
 li {
-    font-size: 20px;
     text-indent: -45px;
+}
+
+.arttitle {
+    text-decoration: none;
 }
